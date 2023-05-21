@@ -1,14 +1,14 @@
 {
-    "builds": [
-      {
-        "src": "attendance_system_facial_recognition/wsgi.py",
-        "use": "@vercel/python"
-      }
-    ],
-    "routes": [
-      {
-        "src": "/(.*)",
-        "dest": "attendance_system_facial_recognition/wsgi.py"
-      }
-    ]
+    "builds": [
+        {
+            "src": "attendance_system_facial_recognition/wsgi.py",
+            "use": "@vercel/python"
+        }
+    ],
+    "routes": [
+        {
+            "src": "/(.*)",
+            "dest": "attendance_system_facial_recognition/wsgi.py"
+        }
+    ]
 }
